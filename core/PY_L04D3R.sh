@@ -2,7 +2,10 @@
 #This code is only for termux users
 #You can use this script as a module
 #This module will help you to generate New loading effects for termux
-loader(){
+
+#here starts the main function
+#this is the main function
+loader1(){ 
 	clear
 	echo ''
 	echo ''
@@ -20,9 +23,11 @@ loader(){
 	echo ''
 	echo ''
 	echo ''
+	echo -e '\e[32m	   
+	   ╦  ┌─┐┌─┐┌┬┐┬┌┐┌┌─┐
+	   ║  │ │├─┤ │││││││ ┬
+	   ╩═╝└─┘┴ ┴─┴┘┴┘└┘└─┘...'
 	echo ''
-	echo ''
-	echo '	  Termux is Loading...'
 	func1() {
 		sl=0.1
 		echo -ne '  \e[32m[                                  ](0%)\r'
@@ -98,8 +103,9 @@ loader(){
 		echo -ne '\n'
 		}
 	func1
-	clear
 }
+
+loader1
 
 #Thanks for visiting and reviewing my code
 #All rights are resolbed by D4RK-COD3
