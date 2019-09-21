@@ -6,29 +6,28 @@
 #here starts the main function
 #this is the main function
 loader1(){ 
-	clear
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo ''
-	echo -e '\e[32m	   
-	   ╦  ┌─┐┌─┐┌┬┐┬┌┐┌┌─┐
-	   ║  │ │├─┤ │││││││ ┬
-	   ╩═╝└─┘┴ ┴─┴┘┴┘└┘└─┘...'
-	echo ''
-	func1() {
+		clear
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo ''
+		echo -e '\e[32m	   
+	    ╦  ┌─┐┌─┐┌┬┐┬┌┐┌┌─┐
+	    ║  │ │├─┤ │││││││ ┬
+	    ╩═╝└─┘┴ ┴─┴┘┴┘└┘└─┘...'
+		echo ''
 		sl=0.1
 		echo -ne '  \e[32m[                                  ](0%)\r'
 		sleep $sl
@@ -101,11 +100,12 @@ loader1(){
 		echo -ne '  [##################################](100%)\r'
 		sleep $sl
 		echo -ne '\n'
-		}
-	func1
+		clear
+		
 }
 
 loader1
+
 
 #Thanks for visiting and reviewing my code
 #All rights are resolbed by D4RK-COD3
